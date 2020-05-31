@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scrobblelist"
-version = "0.0.2"
+version = "0.0.3"
 description = "Last.fm scrobbler for :slowpoke:"
 authors = ["pythoninja <pythoninja@users.noreply.github.com>"]
 license = "MIT"
