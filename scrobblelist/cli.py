@@ -3,7 +3,7 @@
 import click
 from tinytag import TinyTag
 
-from utils import get_mp3_files
+from scrobblelist.utils import get_mp3_files
 
 
 @click.command()
