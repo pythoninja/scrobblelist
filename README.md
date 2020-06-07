@@ -52,7 +52,7 @@ O.N.A. | 24 Godziny Po... | Bzzzzz
 O.N.A. | W Mojej Głowie | Bzzzzz
 ```
 
-Output format is compatible for [@scrobblerbot](tg://resolve?domain=scrobblerBot) multiple scrobbling feature.
+Output format is compatible with [@scrobblerbot](https://t.me/scrobblerBot) multiple scrobbling feature.
 
 ### Last.fm Authentication
 
