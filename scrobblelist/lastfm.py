@@ -28,7 +28,7 @@ def authorize() -> pylast.LastFMNetwork:
             except pylast.WSError:
                 time.sleep(1)
     else:
-        print(f'You are already authorized with session this key: {get_session_key()}')
+        print(f'You are already authorized with session key: {get_session_key()}')
         print(f'Session key file location: {SESSION_KEY_FILE}')
 
     network.session_key = get_session_key()
