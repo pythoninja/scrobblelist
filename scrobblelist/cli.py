@@ -3,14 +3,20 @@
 import click
 from tinytag import TinyTag
 
+from scrobblelist.lastfm import authorize
 from scrobblelist.utils import get_mp3_files, generate_filename
 
 
 @click.command()
-@click.option('-d', '--directory', type=click.Path(), multiple=True, required=True,
-              help='Directory where mp3 files are stored. Non-recursive')
-@click.option('-r', '--recursive', type=click.BOOL, required=False, is_flag=True, help='Enables recursive search')
-def cli(directory, recursive):
+@click.option('-d', '--directory', type=click.Path(), multiple=True, required=False,
+              help='Directory where mp3 files are stored. Non-recursive.')
+@click.option('-r', '--recursive', type=click.BOOL, required=False, is_flag=True, help='Enable recursive search for '
+                                                                                       'mp3 files.')
+@click.option('--auth', is_flag=True, help='Authorize on Last.fm.')
+def cli(directory, recursive, auth):
+    if auth:
+        authorize()
+        exit()
 
     mp3_files = get_mp3_files(directory, recursive)
 
