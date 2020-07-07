@@ -63,7 +63,7 @@ description = "A framework for managing and maintaining multi-language pre-commi
 name = "pre-commit"
 optional = false
 python-versions = ">=3.6.1"
-version = "2.4.0"
+version = "2.5.1"
 
 [package.dependencies]
 cfgv = ">=2.0.0"
@@ -79,7 +79,7 @@ description = "A Python interface to Last.fm and Libre.fm"
 name = "pylast"
 optional = false
 python-versions = ">=3.5"
-version = "3.2.1"
+version = "3.3.0"
 
 [package.extras]
 tests = ["flaky", "pytest", "pytest-cov", "pytest-random-order", "pyyaml"]
@@ -138,7 +138,7 @@ docs = ["sphinx (>=3)", "sphinx-argparse (>=0.2.5)", "sphinx-rtd-theme (>=0.4.3)
 testing = ["pytest (>=4)", "coverage (>=5)", "coverage-enable-subprocess (>=1)", "pytest-xdist (>=1.31.0)", "pytest-mock (>=2)", "pytest-env (>=0.6.2)", "pytest-randomly (>=1)", "pytest-timeout", "packaging (>=20.0)", "xonsh (>=0.9.16)"]
 
 [metadata]
-content-hash = "315d68c324f9830fb84f2e4f66c552004b799566cce82abd7d70ba8d6b803bee"
+content-hash = "6d96234aeb0653d0bcc250f8c60ce99ef494d0c4bf9478d59fe852e79d943634"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -169,12 +169,12 @@ nodeenv = [
     {file = "nodeenv-1.4.0-py2.py3-none-any.whl", hash = "sha256:4b0b77afa3ba9b54f4b6396e60b0c83f59eaeb2d63dc3cc7a70f7f4af96c82bc"},
 ]
 pre-commit = [
-    {file = "pre_commit-2.4.0-py2.py3-none-any.whl", hash = "sha256:5559e09afcac7808933951ffaf4ff9aac524f31efbc3f24d021540b6c579813c"},
-    {file = "pre_commit-2.4.0.tar.gz", hash = "sha256:703e2e34cbe0eedb0d319eff9f7b83e2022bb5a3ab5289a6a8841441076514d0"},
+    {file = "pre_commit-2.5.1-py2.py3-none-any.whl", hash = "sha256:c5c8fd4d0e1c363723aaf0a8f9cba0f434c160b48c4028f4bae6d219177945b3"},
+    {file = "pre_commit-2.5.1.tar.gz", hash = "sha256:da463cf8f0e257f9af49047ba514f6b90dbd9b4f92f4c8847a3ccd36834874c7"},
 ]
 pylast = [
-    {file = "pylast-3.2.1-py3-none-any.whl", hash = "sha256:8ba8d62e2c2af1d8a99878d7f7e91684c52dd3d2236b831b1fe2cbfcc664356d"},
-    {file = "pylast-3.2.1.tar.gz", hash = "sha256:3c984be04c9a22a884c3106a7f75749466d27c68870d6fb7e1f56b71becea7c0"},
+    {file = "pylast-3.3.0-py3-none-any.whl", hash = "sha256:75e74caab76fbc7c969e13a694ad15909b1ca02e85f48dd9ba1462a07f0783cc"},
+    {file = "pylast-3.3.0.tar.gz", hash = "sha256:4d2b6a06e88131f3d923229d879c94cd5bfc0d2251735d59155197b9d6100df3"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},

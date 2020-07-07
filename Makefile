@@ -30,8 +30,9 @@ generate-requirements:
 	$(POETRY_BIN) export --without-hashes --dev --format requirements.txt > requirements.txt || exit 1
 
 clean:
-	@echo -e $(START)'Cleaning build directory'$(END)
+	@echo -e $(START)'Cleaning build and egg directories'$(END)
 	rm -rf $(DISTPATH)
+	rm -rf *.egg-info/
 
 clean-cache:
 	@echo -e $(START)'Clearing poetry cache'$(END)
