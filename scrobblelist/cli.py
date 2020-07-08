@@ -38,14 +38,9 @@ def cli(directory, recursive, auth, scrobble_from):
 
         if scrobbles:
             for metainfo, track_time in scrobbles.items():
-                artist = metainfo.split(' | ')[0]
-                title = metainfo.split(' | ')[1]
-                album = metainfo.split(' | ')[2]
+                artist, title, album = metainfo.split(' | ')
 
-                lastfm.scrobble(artist=artist,
-                                title=title,
-                                album=album,
-                                timestamp=track_time)
+                lastfm.scrobble(artist=artist, title=title, album=album, timestamp=track_time)
 
 
 if __name__ == '__main__':
