@@ -1,4 +1,6 @@
 [
   { "name": "Type: Bug", "color": "#e11d21" },
-  { "name": "Type: Feature", "color": "#84b6eb" }
+  { "name": "Type: Feature", "color": "#8ced3d" },
+  { "name": "Type: Refactoring", "color": "#e5a777" },
+  { "name": "Type: Improvement", "color": "#046477" }
 ]
