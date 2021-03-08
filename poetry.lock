@@ -59,7 +59,7 @@ python-versions = "*"
 
 [[package]]
 name = "pre-commit"
-version = "2.10.1"
+version = "2.11.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 category = "dev"
 optional = false
@@ -140,7 +140,7 @@ testing = ["pytest (>=4)", "coverage (>=5)", "coverage-enable-subprocess (>=1)",
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1149dbfa7762afcc8039f0d00a6303c04cef443695769ebf5c90b3c2590f5d02"
+content-hash = "a473214391d59eba3778f2f5320809cb516318d5678672b3a682fd7c2dca6663"
 
 [metadata.files]
 appdirs = [
@@ -172,8 +172,8 @@ nodeenv = [
     {file = "nodeenv-1.4.0.tar.gz", hash = "sha256:26941644654d8dd5378720e38f62a3bac5f9240811fb3b8913d2663a17baa91c"},
 ]
 pre-commit = [
-    {file = "pre_commit-2.10.1-py2.py3-none-any.whl", hash = "sha256:16212d1fde2bed88159287da88ff03796863854b04dc9f838a55979325a3d20e"},
-    {file = "pre_commit-2.10.1.tar.gz", hash = "sha256:399baf78f13f4de82a29b649afd74bef2c4e28eb4f021661fc7f29246e8c7a3a"},
+    {file = "pre_commit-2.11.0-py2.py3-none-any.whl", hash = "sha256:c4853e29c24b27d81359357fae891e00bc83e6a0575c93d815e0e8077bd53b3b"},
+    {file = "pre_commit-2.11.0.tar.gz", hash = "sha256:06f8cb95e29e56788fb5dc98d7ca7a714969dc96633e1ba654ccd5953b64c195"},
 ]
 pylast = [
     {file = "pylast-4.1.0-py3-none-any.whl", hash = "sha256:a0fe5f3baaa978c9f45957556ebc22284595db415b99cc0b7098f8f754e823c0"},
