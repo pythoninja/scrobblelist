@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+    timezone: Europe/Moscow
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: pre-commit
+    versions:
+    - 2.11.0
+    - 2.11.1
+    - 2.12.0
+  rebase-strategy: disabled
