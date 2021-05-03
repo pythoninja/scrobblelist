@@ -75,7 +75,7 @@ virtualenv = ">=20.0.8"
 
 [[package]]
 name = "pylast"
-version = "4.2.0"
+version = "4.2.1"
 description = "A Python interface to Last.fm and Libre.fm"
 category = "main"
 optional = false
@@ -140,7 +140,7 @@ testing = ["pytest (>=4)", "coverage (>=5)", "coverage-enable-subprocess (>=1)",
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "8787761e124db3aa902d56461691e54946f2c2d57a5e5c552c1d0c6e189e9962"
+content-hash = "88362fe30dfd3bb0f70c5f64ca8d37a18f7571085faaf06fcaf9762dfaf27360"
 
 [metadata.files]
 appdirs = [
@@ -176,8 +176,8 @@ pre-commit = [
     {file = "pre_commit-2.12.1.tar.gz", hash = "sha256:900d3c7e1bf4cf0374bb2893c24c23304952181405b4d88c9c40b72bda1bb8a9"},
 ]
 pylast = [
-    {file = "pylast-4.2.0-py3-none-any.whl", hash = "sha256:18babe2d534d9339e130a5865c8578b4f50d20a5f82b2941c63c98e4d4420710"},
-    {file = "pylast-4.2.0.tar.gz", hash = "sha256:c3f9a40145208fb2fb5effa7cf5a48d5360a7e2847dd2dcc6f168d43856da07d"},
+    {file = "pylast-4.2.1-py3-none-any.whl", hash = "sha256:b3170adcd68c52ab836b376a3004a1d79b31a80ddbe4a44cee3308a59fe8c244"},
+    {file = "pylast-4.2.1.tar.gz", hash = "sha256:4757a7424ea5bae062a1b30f0e7e71d525f1ef3508ff973c74fb725a4986ff5f"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
