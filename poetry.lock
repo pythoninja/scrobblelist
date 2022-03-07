@@ -102,7 +102,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "tinytag"
-version = "1.7.0"
+version = "1.8.0"
 description = "Read music meta data and length of MP3, OGG, OPUS, MP4, M4A, FLAC, WMA and Wave files"
 category = "main"
 optional = false
@@ -140,7 +140,7 @@ testing = ["pytest (>=4)", "coverage (>=5)", "coverage-enable-subprocess (>=1)",
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "9a6bbfcd0d0416709bbde1da6d08fcb12559577aacceb05c9bf441e730a675cd"
+content-hash = "af6760c35516f6ca0b9977938c948540d791f432649a94ecdd5ca964dd0c266a"
 
 [metadata.files]
 appdirs = [
@@ -207,7 +207,7 @@ six = [
     {file = "six-1.15.0.tar.gz", hash = "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"},
 ]
 tinytag = [
-    {file = "tinytag-1.7.0.tar.gz", hash = "sha256:513135c156e93026837a177ed336487f4fbdaa5c7efe8b8bfbeab9ce8f1404f7"},
+    {file = "tinytag-1.8.0.tar.gz", hash = "sha256:e222d2fed7e2a26708963d907355ae242cf44908c1175d9d0d21c2ce51d47beb"},
 ]
 toml = [
     {file = "toml-0.10.1-py2.py3-none-any.whl", hash = "sha256:bda89d5935c2eac546d648028b9901107a595863cb36bae0c73ac804a9b4ce88"},
