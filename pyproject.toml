@@ -21,7 +21,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-tinytag = "^1.7.0"
+tinytag = "^1.8.1"
 pylast = "^4.4.0"
 click = "^7.1.1"
 
