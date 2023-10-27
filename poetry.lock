@@ -280,13 +280,13 @@ files = [
 
 [[package]]
 name = "tinytag"
-version = "1.10.0"
+version = "1.10.1"
 description = "Read music meta data and length of MP3, OGG, OPUS, MP4, M4A, FLAC, WMA and Wave files"
 optional = false
 python-versions = ">=2.7"
 files = [
-    {file = "tinytag-1.10.0-py3-none-any.whl", hash = "sha256:ff0e3ec99ffe54a328db78a85894f9f53cc941d897f45bb2ae579518c25859c2"},
-    {file = "tinytag-1.10.0.tar.gz", hash = "sha256:ad8ce5286229fb17f64e6202ce5131a5039c2c79a740e901dca15ceca0a8d4de"},
+    {file = "tinytag-1.10.1-py3-none-any.whl", hash = "sha256:e437654d04c966fbbbdbf807af61eb9759f1d80e4173a7d26202506b37cfdaf0"},
+    {file = "tinytag-1.10.1.tar.gz", hash = "sha256:122a63b836f85094aacca43fc807aaee3290be3de17d134f5f4a08b509ae268f"},
 ]
 
 [package.extras]
@@ -315,4 +315,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "c35192a1ece3a6d09a8ba32d308a63e951f8ef64b867dc019d244abc42d45f87"
+content-hash = "cbc19538f266af58ef13109c427fcb658e0c8c6d761e0769253a1941c1c9bb17"
